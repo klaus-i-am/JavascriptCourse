@@ -6,13 +6,15 @@
 
 // Boolean = true or false. 
 
-let name;
-name = "Klaus";
+let username;
+username = "Klaus";
 
 let age;
 age = 28;
 
-let isHuman = false;
+let isOnline = false;
 
-console.log(typeof isHuman);
-console.log(`Hello, ${name}! I see you are ${age} years old. Congratulations!`);
+document.getElementById('name').textContent = username;
+document.getElementById('age').textContent = age;
+document.getElementById('status').textContent = isOnline;
+
